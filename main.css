@@ -1,0 +1,147 @@
+#product-overview {
+    background: linear-gradient(to top, rgba(80,68,18,0.6) 10%, transparent), url("images/freedom.jpg") left 10% bottom 70%/ cover no-repeat border-box, #ff1b68;
+    /* background-image: url("images/freedom.jpg"); */
+    /* background-size: cover;   */
+    /*undefined height means auto; keeping aspect ratio, */
+    /* manual flat value means explicit*, cover means your image-container aspect ratio; */
+    /* which width or heigh has more and set the more aspect to 100%, contain means; set the less aspect to 100% */
+    /* background-repeat: no-repeat; */
+    /* background-position: left 10% bottom 20%; */
+    /* one-flat-value means x-axis move img to right, */
+    /* two-flat; 2nd value; y-axis move img to bottom */
+    /* percentage value means how much excess that is cropped out, */
+    /* in this case, height has 50%-default cropped-out from top awa bottom bcoz width is 100% or cover */
+    /* center means 50% 50%. left 10% bottom 10% means left is only cropped out 10%, the same for bottom */
+    /* left top means img is perfectly aligned to left and top; 0%, 0% */
+    /* border: 5px dashed red; */
+    /* background-origin: border-box; */
+    /* similar to box-sizing: border-box but relationship betwn img and border */
+    /* border-box; img is based on content with content, padding and border */
+    /* default is padding-box; img is based on content with content and padding */
+    /* content-box; img is based on content without border and padding; So now the container which */
+    /* defines the width and height of our image is just a container without any border and padding */
+    /* cropping doesn't affected by border being there */
+    /* background-clip: border-box; */
+    /* default is border-box; cropping doesn't affected by border being there */
+    /* padding-box; clip img before the border */
+    /* content-box; clip img before the padding */
+    width: 100vw;
+    height: 33vh;
+    margin-top: 43px;
+    position: relative;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+    background: white;
+    color: #19b84c;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    margin: 8px 0;
+}
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-feature__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
